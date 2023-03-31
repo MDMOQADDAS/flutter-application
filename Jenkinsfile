@@ -1,3 +1,10 @@
 @Library("mysharedlibrary")_
 
-flutterPipeline applicationName: "Hello World"
+flutterPipeline (
+    
+    applicationName: "flutterapp",
+    apprepo: "https://github.com/MDMOQADDAS/flutter-application.git",
+    platform: "apk"
+
+
+)
